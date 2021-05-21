@@ -1,0 +1,249 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Applibgroup development guide</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid="UA-52746336-1"
+                  id="applib-dev-guide"
+                  title="Applibgroup development guide"
+                  environment="web"
+                  feedback-link="https://github.com/applibgroup/applibgroup.github.io/issues">
+    
+      <google-codelab-step label="Prerequisites" duration="0">
+        <p class="image-container"><img style="width: 624.00px" src="img/bbbab687c9ca3d4f.jpeg"></p>
+<p><strong>Last Updated:</strong> 2021-05-12</p>
+<h2 is-upgraded><strong>Learn a Programming Language</strong></h2>
+<p>Sample text (<strong>Learn any programming language</strong>). Have a knowledge of fundamentals of programming.</p>
+<h2 is-upgraded><strong>Get familiar with VCS</strong></h2>
+<p>In this codelab, you&#39;re going to get familiar with VCS</p>
+<ul>
+<li>Sample text 1.</li>
+<li>Sample text 2.</li>
+</ul>
+<h2 is-upgraded><strong>Create a GIT account</strong></h2>
+<p>Follow the below steps to create a new GIT account (if the account is already existing then <strong><code>SKIP</code></strong> this step)</p>
+<ul>
+<li>Step 1</li>
+<li>Step 2</li>
+<li>Step 3</li>
+<li>Step 4</li>
+</ul>
+<p>Follow this link to <a href="https://github.com/join" target="_blank">create a GIT account</a>.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Steps for Contribution" duration="5">
+        <aside class="special"><ol type="1" start="1">
+<li><strong>Choose a project to collaborate.</strong></li>
+<li><strong>Before starting anything - Go through the following documents - Contribution / Code of Conduct.</strong></li>
+</ol>
+</aside>
+<h2 is-upgraded><strong>CASE 1: Solve a Bug # If User want to contribute to an existing issue / bug</strong></h2>
+<ol type="1" start="1">
+<li>Search for any existing bug as per your interest / label (first-timers-only, Easy, good first issue, help wanted, beginner etc.) under Issues section, filter as &#34;open&#34; issues.</li>
+</ol>
+<p><a href="http://issue" target="_blank"><paper-button class="colored" raised>ISSUES SECTION</paper-button></a></p>
+<ol type="1" start="2">
+<li><h3 is-upgraded><strong>Once you found any bug to contribute</strong></h3>
+</li>
+</ol>
+<ul>
+<li>A) Confirm it should be unassigned to anyone - express your interest by asking moderators to assign it to you.</li>
+<li>B) If assigned – follow &#34;Steps for Fork-and-Pull&#34; else repeat steps 2 (A) and 2 (B)</li>
+</ul>
+<h2 is-upgraded><strong>CASE 2: Found an Issue and Solve # If User want to report a new issue / bug</strong></h2>
+<ol type="1" start="1">
+<li>Search if it has been reported before under the Issues section.</li>
+<li>If already reported and </li>
+</ol>
+<ul>
+<li>A) It has already been resolved then check for the solution.</li>
+<li>B) Else comment your input. If you think you know the resolution yourself and it is not assigned to anyone - express your interest by asking moderators to assign it to you. Once assigned – follow &#34;<strong>Steps for Fork-and-Pull</strong>&#34;. </li>
+</ul>
+<ol type="1" start="3">
+<li>If not reported, create an Issue on Github (Follow steps &#34;How to report a bug&#34;).</li>
+<li>If you know the resolution yourself – follow &#34;Steps for Fork-and-Pull&#34;.  </li>
+</ol>
+<h2 is-upgraded><strong>CASE 3: Feature Request # If User has idea about any new Feature in any existing Project</strong></h2>
+<ol type="1" start="1">
+<li>Search if it has been discussed before with the existing Github Project.</li>
+<li>If yes, explore the feature and can collaborate in the same.</li>
+<li>If no, user should start discussion on Slack Channel <code>#newfeature</code> (we can rename it).</li>
+<li>If a feature is approved, you can start development. </li>
+<li>Follow &#34;Steps for Fork-and-Pull&#34;.</li>
+</ol>
+<h2 is-upgraded><strong>CASE 4: New Idea # If User has idea about any new Idea / Project / Library</strong></h2>
+<ol type="1" start="1">
+<li>Search if it has been discussed before on Github Projects</li>
+<li>If already discussed, explore for a project and can collaborate in the same project.</li>
+<li>If no, user should start discussion on Slack Channel #newidea (we can rename it).</li>
+<li>If Idea is approved, the community will create a Project / repo and assign you as Developer.</li>
+<li>Once repo created [Do we need any branch to include here ] </li>
+<li>Follow &#34;Steps for Fork-and-Pull&#34;.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Steps for Fork-and-Pull" duration="3">
+        <p>Some things to try...</p>
+<ol type="1" start="1">
+<li>Fork the repo on GitHub</li>
+<li>Clone the project to your own machine</li>
+<li>Commit changes to your own branch.</li>
+</ol>
+<ul>
+<li>A) Follow the issue template (if one is provided)</li>
+<li>B) Follow the style guide if one is provided. If none is, use the existing codebase as a guideline.</li>
+</ul>
+<ol type="1" start="4">
+<li>Once code is ready, push your work back up to the forked repo.</li>
+<li>Submit a Pull Request so that the Community can review your changes. </li>
+</ol>
+<ul>
+<li>A) Wait for reviewers to review / approve the changes. </li>
+<li>i) If PR approved and PR merged by moderator, delete PR.</li>
+<li>ii) Else, make suggested changes as per the review done by moderator and re-push the updated changes. Repeat steps vii to viii.</li>
+</ul>
+<p class="image-container"><img style="width: 131.05px" src="img/6237230e3913c9db.jpeg"></p>
+<aside class="special"><p><strong>Tip: </strong>Sample tip. </p>
+</aside>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="How to report a bug" duration="3">
+        <p>We use GitHub issues to track public bugs. Report a bug by opening a new issue. <strong>Great Bug Reports</strong> tend to have: :</p>
+<ul>
+<li>A quick summary and/or backgroundSpecify the Platform / Environment / Version </li>
+<li>Steps to reproduce</li>
+<li>Be specific!Give sample code if you can. </li>
+<li>Include screenshots / logs if any.</li>
+<li>What you expected would happenWhat actually happens.</li>
+<li>Notes (possibly including why you think this might be happening, or stuff you tried that didn&#39;t work).</li>
+</ul>
+<h2 is-upgraded><strong>Bug Report Format</strong></h2>
+<p><strong>Describe the bug</strong></p>
+<p>A clear and concise description of what the bug is.</p>
+<p><strong>To Reproduce</strong></p>
+<p>Steps to reproduce the behavior:</p>
+<ol type="1" start="1">
+<li>Go to &#39;...&#39;</li>
+<li>Click on &#39;....&#39;</li>
+<li>Scroll down to &#39;....&#39;</li>
+<li>See error</li>
+</ol>
+<p><strong>Expected behavior</strong></p>
+<p>A clear and concise description of what you expected to happen.</p>
+<p><strong>Screenshots</strong></p>
+<p>If applicable, add screenshots to help explain your problem.</p>
+<p><strong>Desktop</strong> (please complete the following information):</p>
+<ul>
+<li>OS: [e.g. iOS]</li>
+<li>Browser [e.g. chrome, safari]</li>
+<li>Version [e.g. 22]</li>
+</ul>
+<p><strong>Smartphone</strong> (please complete the following information):</p>
+<ul>
+<li>Device: [e.g. iPhone6]</li>
+<li>OS: [e.g. iOS8.1]</li>
+<li>Browser [e.g. stock browser, safari]</li>
+<li>Version [e.g. 22]</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Feature Request Format" duration="3">
+        <p><strong>Is your feature request related to a problem? Please describe.</strong></p>
+<p>A clear and concise description of what the problem is. Ex. I&#39;m always frustrated when [...]</p>
+<p><strong>Describe the solution you&#39;d like</strong></p>
+<p>A clear and concise description of what you want to happen.</p>
+<p><strong>Describe alternatives you&#39;ve considered</strong></p>
+<p>A clear and concise description of any alternative solutions or features you&#39;ve considered.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Commit Message Format" duration="2">
+        <ul>
+<li>Separate subject from body with a blank line</li>
+<li>Do not end the subject line with a period</li>
+<li>Capitalize the subject line and each paragraph</li>
+<li>Use the imperative mood in the subject line</li>
+<li>Wrap lines at 72 characters</li>
+<li>Use the body to explain what and why you have done something. In most cases, you can leave out details about how a change has been made.</li>
+<li>The footer should contain any information about Breaking Changes and is also the place to reference GitHub issues that this commit closes. Breaking Changes should start with the word BREAKING CHANGE: with a space or two newlines. The rest of the commit message is then used for this.</li>
+</ul>
+<table>
+<tr><td colspan="1" rowspan="1"><p><strong>FORMAT</strong></p>
+</td><td colspan="1" rowspan="1"><p><strong>EXAMPLE</strong></p>
+</td></tr>
+<tr><td colspan="1" rowspan="1"><p><strong>Type</strong>: <strong>Subject</strong></p>
+<p>Blank Line</p>
+<p><strong>Body</strong></p>
+<p>Blank Line</p>
+<p><strong>Footer </strong>(optional)</p>
+</td><td colspan="1" rowspan="1"><p><strong>Fix</strong>: Couple of unit tests for IE9</p>
+<p>Older IEs serialize html uppercased, but IE9 does not...</p>
+<p>Would be better to expect case insensitive, unfortunately jasmine does</p>
+<p>not allow us to use regex for throwing expectations.</p>
+<p>----------------------------------------------------------------------</p>
+<p>feature: onUrlChange event (popstate/hashchange/polling)</p>
+<p>Added new event to browser:</p>
+<p>- forward popstate event if available</p>
+<p>- forward hashchange event if popstate not available</p>
+<p>- do polling when neither popstate nor hashchange available</p>
+<p>Breaks browser.onHashChange, which was removed (use onUrlChange instead)</p>
+</td></tr>
+</table>
+<h3 is-upgraded><strong>Type must be one of the following</strong>:</h3>
+<ul>
+<li>feature: A new feature.</li>
+<li>fix: A bug fix.</li>
+<li>docs: Documentation only changes.</li>
+<li>style: Changes that do not affect the meaning of the code (white-space, formatting, missing semicolons, etc).</li>
+<li>refactor: A code change that neither fixes a bug nor adds a feature.</li>
+<li>perf: A code change that improves performance.</li>
+<li>test: Adding missing tests.</li>
+<li>chore: Changes to the build process or auxiliary tools and libraries such as documentation generation.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Congratulations" duration="0">
+        <p>Congratulations, you&#39;ve successfully finished <strong><code>Applibgroup dev guide</code></strong>! </p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>

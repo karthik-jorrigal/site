@@ -1,0 +1,40 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-05-19T11:18:45Z",
+  "id": "hmos-lib-port-guide",
+  "duration": 26,
+  "title": "HMOS Lib Porting Guide",
+  "authors": "Application Library Engineering Group",
+  "summary": "In this codelab, you'll get familiar with HMOS Lib Porting Guide.",
+  "source": "18AtQdmhO0j4rzx_uuGYbpTDNwhzs7lVUDizVD8INbEo",
+  "theme": "training",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "Training"
+  ],
+  "tags": [
+    "cds17",
+    "chrome-dev-summit-2016",
+    "devfest18",
+    "gdd17",
+    "io2016",
+    "io2017",
+    "io2018",
+    "io2019",
+    "jsconfeu",
+    "kiosk",
+    "pwa-dev-summit",
+    "pwa-roadshow",
+    "tag-web",
+    "typtwd17",
+    "web"
+  ],
+  "feedback": "https://github.com/applibgroup/applibgroup.github.io/issues",
+  "ga": "UA-52746336-1",
+  "url": "hmos-lib-port-guide"
+}
