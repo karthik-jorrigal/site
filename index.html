@@ -12,10 +12,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application.">
+  <meta name="description" content="AppLibGroup-Labs provide a guided, tutorial, hands-on coding experience. Most Labs will step you through the process of compiling &amp; porting libraries, building a small application, or adding a new feature to an existing application.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Codelabs">
-  <meta name="application-name" content="Codelabs">
+  <meta name="generator" content="AppLibGroup-Labs">
+  <meta name="application-name" content="AppLibGroup-Labs">
   <link rel="canonical" href="https://example.com/" />
   <link rel="preconnect" href="https://www.google-analytics.com" />
 
@@ -27,7 +27,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-  <title>Codelabs</title>
+  <title>AppLibGroup-Labs</title>
 
   <link rel="stylesheet" href="/styles/main.css">
 
@@ -55,7 +55,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="#455a64">
-  <meta name="apple-mobile-web-app-title" content="Codelabs">
+  <meta name="apple-mobile-web-app-title" content="AppLibGroup-Labs">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="194x194" href="/images/favicons/favicon-194x194.png">
@@ -68,8 +68,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta name="theme-color" content="#455a64">
 
   <meta name="og:type" property="og:type" content="website" />
-  <meta name="og:title" property="og:title" content="Codelabs" />
-  <meta name="og:description" property="og:description" content="Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application." />
+  <meta name="og:title" property="og:title" content="AppLibGroup-Labs" />
+  <meta name="og:description" property="og:description" content="AppLibGroup-Labs provide a guided, tutorial, hands-on coding experience. Most Labs will step you through the process of compiling &amp; porting libraries, building a small application, or adding a new feature to an existing application." />
   <meta name="og:url" property="og:url" content="https://example.com/" />
   <meta name="og:site_name" property="og:site_name" content="Codelabs" />
   <meta name="og:determiner" property="og:determiner" content="the" />
@@ -82,8 +82,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta name="og:image:alt" property="og:image:alt" content="Codelabs" />
 
   <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" property="twitter:title" content="Codelabs" />
-  <meta name="twitter:description" property="twitter:description" content="Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application." />
+  <meta name="twitter:title" property="twitter:title" content="AppLibGroup-Labs" />
+  <meta name="twitter:description" property="twitter:description" content="AppLibGroup-Labs provide a guided, tutorial, hands-on coding experience. Most Labs will step you through the process of compiling &amp; porting libraries, building a small application, or adding a new feature to an existing application." />
   <meta name="twitter:image" property="twitter:image" content="/images/og-image.png" />
   <meta name="twitter:url" property="twitter:url" content="https://example.com/" />
 </head>
@@ -111,16 +111,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <header id="banner" down$="[[_toBoolean(selectedFilter)]]">
       <div class="site-width">
         
-        <h2 class="banner-title">AppLibGroup Codelabs!</h2>
+        <h2 class="banner-title">Welcome to AppLibGroup-Labs!</h2>
         <div class="banner-description"
              data-filter-selected$="[[_toBoolean(selectedFilter)]]">
           <p class="banner-info">
-            We provide a guided, tutorial, hands-on
-            coding experience. Most codelabs will step you through the process
-            of building a small application, or adding a new feature to an
-            existing application.
+            AppLibGroup-Labs provide a guided, tutorial, hands-on coding experience. Most Labs will step you through the process of compiling & porting libraries, building a small application, or adding a new feature to an existing application.
             <br>
-            <a href="https://karthik-jorrigal.github.io/site/">Codelab Landing Page</a>
+            <a href="https://github.com/applibgroup">AppLibGroup on GitHub</a>
           </p>
           </div>
       </div>
@@ -153,36 +150,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <a href="/meetup/" tabindex="-1">
                   <paper-item>Meetup Group</paper-item>
                 </a>
-              <a href="/vslive/" tabindex="-1">
-                  <paper-item>Visual Studio Live</paper-item>
-                </a>
               
           </paper-listbox>
         </paper-dropdown-menu>
-        <paper-dropdown-menu
-          label="Filter by category"
-          class="dropdown-filter"
-          no-label-float
-          noink no-animations
-        >
-          <paper-listbox
-            id="categorylist"
-            slot="dropdown-content"
-            class="dropdown-content"
-            on-iron-activate="onCategoryActivate"
-            attr-for-selected="filter"
-          >
-              <paper-item filter="Training">Training</paper-item>
-                <paper-item filter="sample">sample</paper-item>
-                
-          </paper-listbox>
-        </paper-dropdown-menu></div>
+        </div>
 
       <card-sorter id="cards" class="site-width">
         
           
             
-            <a href="/codelabs/applib-dev-guide/index.html?index=..%2F..index" on-tap="navigate"
+            <a href="/codelabs\applib-dev-guide\index.html?index=..%2F..index" on-tap="navigate"
                class="codelab-card category-training"
                data-category="Training"
                data-title="Applibgroup development guide"
@@ -203,7 +180,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           
           
             
-            <a href="/codelabs/hmos-lib-port-guide/index.html?index=..%2F..index" on-tap="navigate"
+            <a href="/codelabs\hmos-lib-port-guide\index.html?index=..%2F..index" on-tap="navigate"
                class="codelab-card category-training"
                data-category="Training"
                data-title="HMOS Lib Porting Guide"
@@ -222,27 +199,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               </div>
             </a>
           
-          
-            
-            <a href="/codelabs/how-to-write-a-codelab/index.html?index=..%2F..index" on-tap="navigate"
-               class="codelab-card category-sample"
-               data-category="sample"
-               data-title="How to Write a Codelab"
-               data-duration="2"
-               data-updated="2021-05-19T20:21:31+05:30"
-               data-tags="medium"
-               data-pin="">
-              <div class="description">How to Write a Codelab</div>
-              <div class="card-duration">
-                <span>2 min </span>
-                <span>Updated May 19, 2021</span>
-              </div>
-              <div class="card-footer">
-                <div class="category-icon sample-icon"></div>
-                <paper-button class="sample-bg">Start</paper-button>
-              </div>
-            </a>
-          
       </card-sorter>
 
       <div id="loading-placeholder" class="site-width">
@@ -255,25 +211,27 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <div class="link-list">
           <label>Connect</label>
           <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
+            <li><a href="https://www.facebook.com/groups/816825212509331">Facebook</a></li>
+			<li><a href="https://twitter.com/applibgroup">Twitter</a></li>
+			<li><a href="https://www.linkedin.com/company/72703896/">LinkedIN</a></li>
           </ul>
         </div>
         <div class="link-list">
-          <label>Programs</label>
+          <label>Programs/Events</label>
           <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
+            <li><a href="https://www.meetup.com/application-library-engineering-group/">Meetup</a></li>
           </ul>
         </div>
         <div class="link-list">
-          <label>Developer Consoles</label>
+          <label>Developer Discussions</label>
           <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
+            <li><a href="https://join.slack.com/t/applibgroup/shared_invite/zt-n5yze4r7-xnwOeUv07Lw9rYMFHRSCjw">Join Slack</a></li>
           </ul>
         </div>
         <div class="link-list">
           <label>Explore</label>
            <ul>
-            <li><a href="https://www.example.com/">Example</a></li>
+            <li><a href="https://medium.com/@applibgroup">Medium</a></li>
           </ul>
         </div>
       </div>
@@ -282,9 +240,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="footerbar">
       <div class="site-width layout horizontal center justified">
         <span>
-          <a href="https://example.com">Terms</a>
+          <a href="https://github.com/applibgroup/applibgroup/wiki">Wiki</a>
           &nbsp; | &nbsp;
-          <a href="https://example.com">Privacy</a>
+          <a href="https://github.com/applibgroup/applibgroup/wiki/Code-of-Conduct">Code Of Conduct</a>
         </span>
       </div>
     </div>
